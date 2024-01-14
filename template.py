@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 # Define project name(local package)
-project_name = "myProjet"
+project_name = "cancer"
 
 # List of files to create or check
 list_of_files = [
@@ -31,9 +31,11 @@ list_of_files = [
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/utils.py",
     f"src/{project_name}/logging/__init__.py",
+    f"src/{project_name}/logging/logging.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/entity/entity.py",
     f"src/{project_name}/constants/__init__.py",
     
     "main.py",
