@@ -1,1 +1,2 @@
 from cancer.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
+from cancer.pipeline.prepare_base_model_pipeline import PrepareBaseModelTrainingPipeline
