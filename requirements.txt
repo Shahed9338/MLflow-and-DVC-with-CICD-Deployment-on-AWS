@@ -1,6 +1,6 @@
 tensorflow==2.12.0
 pandas 
-gdown
+gdown==4.6.0
 dvc
 mlflow==2.2.2
 notebook

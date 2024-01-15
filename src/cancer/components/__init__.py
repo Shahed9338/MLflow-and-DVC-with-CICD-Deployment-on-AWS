@@ -1,0 +1,1 @@
+from cancer.components.data_ingestion import DataIngestion

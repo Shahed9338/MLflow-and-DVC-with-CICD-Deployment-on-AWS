@@ -1,0 +1,1 @@
+from cancer.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline

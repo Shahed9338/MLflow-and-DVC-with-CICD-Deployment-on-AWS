@@ -1,0 +1,1 @@
+from cancer.entity.entity import DataIngestionConfig
