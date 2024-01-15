@@ -1,0 +1,1 @@
+from cancer.config.configuration import ConfigurationManager

@@ -1,1 +1,1 @@
-from cancer.entity.entity import DataIngestionConfig, PrepareBaseModelConfig
+from cancer.entity.entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig

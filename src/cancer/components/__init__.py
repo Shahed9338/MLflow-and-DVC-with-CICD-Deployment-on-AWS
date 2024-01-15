@@ -1,2 +1,3 @@
 from cancer.components.data_ingestion import DataIngestion
 from cancer.components.prepare_base_model import PrepareBaseModel
+from cancer.components.model_trainer import Training
