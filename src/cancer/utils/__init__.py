@@ -1,1 +1,1 @@
-from cancer.utils.utils import get_size, read_yaml, create_directories, save_json
+from cancer.utils.utils import get_size, read_yaml, create_directories, save_json, decodeImage

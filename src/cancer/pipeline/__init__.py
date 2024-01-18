@@ -2,3 +2,4 @@ from cancer.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipelin
 from cancer.pipeline.prepare_base_model_pipeline import PrepareBaseModelTrainingPipeline
 from cancer.pipeline.model_trainer_pipeline import ModelTrainingPipeline
 from cancer.pipeline.model_evaluation_pipeline import EvaluationPipeline
+from cancer.pipeline.prediction_pipeline import PredictionPipeline
