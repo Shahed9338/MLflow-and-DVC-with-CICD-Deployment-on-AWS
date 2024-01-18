@@ -2,7 +2,7 @@ from cancer.logging import logger
 from cancer.pipeline import DataIngestionTrainingPipeline
 from cancer.pipeline import PrepareBaseModelTrainingPipeline
 from cancer.pipeline import ModelTrainingPipeline
-
+from cancer.pipeline import EvaluationPipeline
 
 STAGE_NAME = "Data Ingestion stage"
 
@@ -35,6 +35,19 @@ try:
    model_trainer = ModelTrainingPipeline()
    model_trainer.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+
+STAGE_NAME = "Evaluation stage"
+try:
+   logger.info(f"*******************")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   model_evalution = EvaluationPipeline()
+   model_evalution.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+
 except Exception as e:
         logger.exception(e)
         raise e
