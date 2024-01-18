@@ -160,5 +160,10 @@ cython_debug/
 #.idea/
 artifacts/*
 
+# DVC
+dvc.lock
+.dvcignore
+
+
 # Ignore MLflow experiment logs
 mlruns/
